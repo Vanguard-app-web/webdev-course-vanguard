@@ -14,7 +14,7 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 **Repositorio de código fuente:** [Vanguard — Web Development Course](https://github.com/Vanguard-app-web/webdev-course-vanguard).
 
-> **Estado del curso:** las misiones 1, 3 y 5 cuentan con video, práctica precargada y código inicial y completo, con HTML y CSS en archivos separados. Las misiones 2 y 4 conservan sus archivos vacíos y los campos que deben completar sus responsables. Los marcadores `[PENDIENTE: ...]` no son enlaces publicados.
+> **Estado del curso:** las misiones 1, 2, 3 y 5 cuentan con video, práctica precargada y código inicial y completo, con HTML y CSS en archivos separados. La misión 4 conserva sus archivos vacíos y los campos que debe completar su responsable. Los marcadores `[PENDIENTE: ...]` no son enlaces publicados.
 
 ## Secuencia de las Lecciones
 
@@ -59,21 +59,42 @@ Cada `index.html` carga el `style.css` de su propia carpeta. Para usar estos arc
 
 ### Misión 2: Organiza tu contenido
 
-**Responsable:** Brayan Benjamin Huerta Cardenas.
+**Responsable:** Brayan Benjamin Huerta Cardenas — [brayanjk22](https://github.com/brayanjk22).
 
-**Duración:** [PENDIENTE: indicar la duración real del video].
+**Duración:** 11 minutos y 3 segundos.
 
-**Descripción:** [PENDIENTE: completar la descripción de esta misión].
+**Descripción:** organiza la página de Pixel con un título principal, secciones y párrafos. Construye paso a paso una lista con viñetas para sus pasatiempos y otra numerada para sus metas, observando cómo responde la vista previa. Añade importancia y énfasis dentro de un párrafo y termina con una pregunta y un desafío para practicar.
 
-**Enlace:** [PENDIENTE: añadir el enlace real del video no listado en YouTube].
+**Enlace:** [Ver la misión 2 en YouTube](https://youtu.be/b9Je5N0OyIA).
 
 **Consejos clave:**
 
-- [PENDIENTE: explicar las ideas principales que aprenderá el estudiante].
+- `<h1>` identifica el encabezado principal, `<h2>` presenta secciones del mismo nivel y `<p>` desarrolla sus ideas. Los encabezados expresan jerarquía; no se eligen solo por el tamaño de la letra.
+- `<ul>` agrupa elementos sin una secuencia necesaria; `<ol>` representa una lista en la que el orden importa. El navegador muestra las viñetas o los números.
+- Cada elemento se escribe con `<li>` dentro de su lista. Al añadir o retirar uno, incluye tanto su contenido como sus etiquetas de apertura y cierre.
+- `<strong>` indica importancia y normalmente se ve en negrita; `<em>` indica énfasis y suele verse en cursiva. Ambas etiquetas aportan significado dentro del mismo párrafo.
+- Cambia una cosa cada vez y observa el resultado. Revisa que los elementos estén dentro de su lista y que las etiquetas anidadas se cierren antes del párrafo que las contiene.
 
-**Práctica:** [PENDIENTE: añadir el enlace al ejercicio precargado en un editor gratuito en línea].
+**Práctica:** [Abrir el ejercicio precargado en LiveCodes](https://livecodes.io/?html=%3Ch1%3EHola%2C+soy+Pixel%3C%2Fh1%3E%0A%3Cp%3EBienvenido+a+mi+primera+p%C3%A1gina+web.%3C%2Fp%3E%0A%0A%3Ch2%3E%C2%BFQu%C3%A9+estoy+aprendiendo%3F%3C%2Fh2%3E%0A%3Cp%3EEstoy+aprendiendo+HTML+y+pronto+usar%C3%A9+CSS.%3C%2Fp%3E&css=%2F*+En+esta+misi%C3%B3n+trabajamos+con+HTML.+Los+estilos+se+a%C3%B1aden+en+la+misi%C3%B3n+4.+*%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n+2+%C2%B7+Organiza+tu+contenido).
 
-**Desafío:** [PENDIENTE: describir la actividad y cómo comprobar su resultado].
+El video utiliza CodePen. La práctica abre el mismo punto de partida en LiveCodes, otro editor gratuito en el navegador, con HTML y CSS separados y sin JavaScript. El saludo y el párrafo iniciales reproducen la variante de texto del video; si vienes de la misión 1 puedes conservar tus propios textos y seguir los mismos cambios de estructura.
+
+1. Cambia «¿Qué estoy aprendiendo?» por «Sobre mí» y su párrafo por «Me gustan los robots y aprender a programar». Conserva el título principal y la bienvenida.
+2. Añade `<h2>Mis pasatiempos</h2>` y una lista `<ul>` con tres `<li>`: Dibujar robots, Escuchar música y Resolver acertijos. Prueba un cuarto elemento, «Leer historias», comprueba la nueva viñeta y retíralo para volver a tres.
+3. Añade `<h2>Mis metas</h2>` y una lista `<ol>` con Aprender HTML, Practicar CSS y Crear una página completa. Observa la numeración automática y explica por qué aquí sí importa la secuencia.
+4. En el párrafo «Sobre mí», rodea «robots» con `<strong>` y «aprender a programar» con `<em>`. Comprueba que las dos partes siguen dentro del mismo `<p>`.
+5. Compara con el ejemplo completo: un `<h1>`, tres secciones `<h2>`, tres pasatiempos y tres metas. El CSS solo contiene un comentario; todavía no se aplican estilos.
+
+**Desafío:** añade una sección «Mis comidas favoritas» o «Mis juegos favoritos» con tres elementos. Elige el tipo de lista según si la secuencia importa y explica tu elección. Comprueba que el encabezado aparece antes de la lista, que hay tres elementos dentro de ella y que conservas el resto de la página. Una posible respuesta del video usa `<ul>` para arroz con pollo, pasta y ensalada de frutas; puedes usar tus propios ejemplos. El desafío se añade después del ejemplo completo de la lección.
+
+**Código de esta misión:**
+
+| Versión | HTML | CSS |
+| --- | --- | --- |
+| Punto de partida | [index.html](starter-files/mision-02/index.html) | [style.css](starter-files/mision-02/style.css) |
+| Ejemplo completo | [index.html](completed-examples/mision-02/index.html) | [style.css](completed-examples/mision-02/style.css) |
+
+Cada `index.html` carga el `style.css` de su carpeta. Para usar el ejercicio en CodePen, copia solo el contenido de `<body>` al panel HTML y el comentario de `style.css` al panel CSS; no copies la etiqueta `<link>`. El ejemplo completo coincide con el punto de partida de la misión 3.
 
 ### Misión 3: Conecta tu página
 
@@ -181,7 +202,7 @@ Para usar estos archivos en CodePen, copia solo el bloque `<main class="tarjeta"
 | Misión | Actividad | Empezar a programar |
 | --- | --- | --- |
 | 1 | Crear el saludo de Pixel con h1 y un párrafo, añadir una sección con h2 y modificar el texto en la vista previa | [Abrir el ejercicio precargado en LiveCodes](https://livecodes.io/?html=%3Ch1%3EHola%2C%20Pixel%3C%2Fh1%3E%0A%3Cp%3EBienvenido%20a%20mi%20primera%20p%C3%A1gina%20web.%3C%2Fp%3E&css=%2F%2A%20En%20esta%20misi%C3%B3n%20trabajamos%20con%20HTML.%20Los%20estilos%20se%20a%C3%B1aden%20en%20la%20misi%C3%B3n%204.%20%2A%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n%201%20%C2%B7%20Descubre%20la%20web) |
-| 2 | [PENDIENTE: completar la actividad] | [PENDIENTE: enlace precargado] |
+| 2 | Organizar la página de Pixel con encabezados y párrafos, construir listas de pasatiempos y metas y añadir importancia y énfasis | [Abrir el ejercicio precargado en LiveCodes](https://livecodes.io/?html=%3Ch1%3EHola%2C+soy+Pixel%3C%2Fh1%3E%0A%3Cp%3EBienvenido+a+mi+primera+p%C3%A1gina+web.%3C%2Fp%3E%0A%0A%3Ch2%3E%C2%BFQu%C3%A9+estoy+aprendiendo%3F%3C%2Fh2%3E%0A%3Cp%3EEstoy+aprendiendo+HTML+y+pronto+usar%C3%A9+CSS.%3C%2Fp%3E&css=%2F*+En+esta+misi%C3%B3n+trabajamos+con+HTML.+Los+estilos+se+a%C3%B1aden+en+la+misi%C3%B3n+4.+*%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n+2+%C2%B7+Organiza+tu+contenido) |
 | 3 | Añadir y probar enlaces internos y externos, insertar una imagen con texto alternativo y organizar la página de Pixel | [Abrir el ejercicio precargado en LiveCodes](https://livecodes.io/?html=%3Ch1%3EHola%2C+soy+Pixel%3C%2Fh1%3E%0A++++%3Cp%3EBienvenido+a+mi+primera+p%C3%A1gina+web.%3C%2Fp%3E%0A%0A++++%3Ch2%3ESobre+m%C3%AD%3C%2Fh2%3E%0A++++%3Cp%3EMe+gustan+los+%3Cstrong%3Erobots%3C%2Fstrong%3E+y+%3Cem%3Eaprender+a+programar%3C%2Fem%3E.%3C%2Fp%3E%0A%0A++++%3Ch2%3EMis+pasatiempos%3C%2Fh2%3E%0A++++%3Cul%3E%0A++++++++%3Cli%3EDibujar+robots%3C%2Fli%3E%0A++++++++%3Cli%3EEscuchar+m%C3%BAsica%3C%2Fli%3E%0A++++++++%3Cli%3EResolver+acertijos%3C%2Fli%3E%0A++++%3C%2Ful%3E%0A%0A++++%3Ch2%3EMis+metas%3C%2Fh2%3E%0A++++%3Col%3E%0A++++++++%3Cli%3EAprender+HTML%3C%2Fli%3E%0A++++++++%3Cli%3EPracticar+CSS%3C%2Fli%3E%0A++++++++%3Cli%3ECrear+una+p%C3%A1gina+completa%3C%2Fli%3E%0A++++%3C%2Fol%3E&css=%2F*+En+esta+misi%C3%B3n+trabajamos+con+HTML.+Los+estilos+se+a%C3%B1aden+en+la+misi%C3%B3n+4.+*%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n+3+%C2%B7+Conecta+tu+p%C3%A1gina) |
 | 4 | [PENDIENTE: completar la actividad] | [PENDIENTE: enlace precargado] |
 | 5 | Personalizar la tarjeta de perfil y comprobar su diseño en distintos anchos | [Abrir la práctica en JSFiddle](https://jsfiddle.net/oym7feLd/) |
@@ -232,7 +253,7 @@ La distribución de las misiones conserva el mismo orden utilizado por el equipo
 | Misión | Responsable | Aporte documentado |
 | --- | --- | --- |
 | 1. Descubre la web | Antony Alexander Jimenez Saavedra | [Video de la misión 1](https://youtu.be/ILUyw7PBHYE), [código inicial](starter-files/mision-01/), [ejemplo completo](completed-examples/mision-01/) y [práctica precargada](https://livecodes.io/?html=%3Ch1%3EHola%2C%20Pixel%3C%2Fh1%3E%0A%3Cp%3EBienvenido%20a%20mi%20primera%20p%C3%A1gina%20web.%3C%2Fp%3E&css=%2F%2A%20En%20esta%20misi%C3%B3n%20trabajamos%20con%20HTML.%20Los%20estilos%20se%20a%C3%B1aden%20en%20la%20misi%C3%B3n%204.%20%2A%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n%201%20%C2%B7%20Descubre%20la%20web). Documentación de la introducción a HTML y CSS, los primeros encabezados y párrafos, la práctica y el desafío. |
-| 2. Organiza tu contenido | Brayan Benjamin Huerta Cardenas | [PENDIENTE: resumir su elaboración y añadir enlaces] |
+| 2. Organiza tu contenido | Brayan Benjamin Huerta Cardenas — [brayanjk22](https://github.com/brayanjk22) | Preparación y narración del [video de la misión 2](https://youtu.be/b9Je5N0OyIA); [código inicial](starter-files/mision-02/), [ejemplo completo](completed-examples/mision-02/) y [práctica precargada](https://livecodes.io/?html=%3Ch1%3EHola%2C+soy+Pixel%3C%2Fh1%3E%0A%3Cp%3EBienvenido+a+mi+primera+p%C3%A1gina+web.%3C%2Fp%3E%0A%0A%3Ch2%3E%C2%BFQu%C3%A9+estoy+aprendiendo%3F%3C%2Fh2%3E%0A%3Cp%3EEstoy+aprendiendo+HTML+y+pronto+usar%C3%A9+CSS.%3C%2Fp%3E&css=%2F*+En+esta+misi%C3%B3n+trabajamos+con+HTML.+Los+estilos+se+a%C3%B1aden+en+la+misi%C3%B3n+4.+*%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n+2+%C2%B7+Organiza+tu+contenido). Documentación de encabezados, párrafos, listas, importancia y énfasis, con práctica y desafío. |
 | 3. Conecta tu página | Luisa Nhiriel Casalino Berrocal | [Video de la misión 3](https://youtu.be/jTsvDy6rGkI), [código inicial](starter-files/mision-03/), [ejemplo completo](completed-examples/mision-03/) y [Abrir el ejercicio precargado en LiveCodes](https://livecodes.io/?html=%3Ch1%3EHola%2C+soy+Pixel%3C%2Fh1%3E%0A++++%3Cp%3EBienvenido+a+mi+primera+p%C3%A1gina+web.%3C%2Fp%3E%0A%0A++++%3Ch2%3ESobre+m%C3%AD%3C%2Fh2%3E%0A++++%3Cp%3EMe+gustan+los+%3Cstrong%3Erobots%3C%2Fstrong%3E+y+%3Cem%3Eaprender+a+programar%3C%2Fem%3E.%3C%2Fp%3E%0A%0A++++%3Ch2%3EMis+pasatiempos%3C%2Fh2%3E%0A++++%3Cul%3E%0A++++++++%3Cli%3EDibujar+robots%3C%2Fli%3E%0A++++++++%3Cli%3EEscuchar+m%C3%BAsica%3C%2Fli%3E%0A++++++++%3Cli%3EResolver+acertijos%3C%2Fli%3E%0A++++%3C%2Ful%3E%0A%0A++++%3Ch2%3EMis+metas%3C%2Fh2%3E%0A++++%3Col%3E%0A++++++++%3Cli%3EAprender+HTML%3C%2Fli%3E%0A++++++++%3Cli%3EPracticar+CSS%3C%2Fli%3E%0A++++++++%3Cli%3ECrear+una+p%C3%A1gina+completa%3C%2Fli%3E%0A++++%3C%2Fol%3E&css=%2F*+En+esta+misi%C3%B3n+trabajamos+con+HTML.+Los+estilos+se+a%C3%B1aden+en+la+misi%C3%B3n+4.+*%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n+3+%C2%B7+Conecta+tu+p%C3%A1gina). Documentación de la lección, la práctica y el desafío. |
 | 4. Dale estilo con CSS | Giovanni Marcelo Gallegos De La Cruz | [PENDIENTE: resumir su elaboración y añadir enlaces] |
 | 5. El desafío final: tu página web | Fabricio Jose Rivera Rupay | Guion, narración y [video de la misión 5](https://youtu.be/I9BesDGiYkI); [código inicial](starter-files/mision-05/), [ejemplo completo](completed-examples/mision-05/) y [práctica precargada](https://jsfiddle.net/oym7feLd/). Estructura inicial del repositorio y documentación de su sección en este README. |
