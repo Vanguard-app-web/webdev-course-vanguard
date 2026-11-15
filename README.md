@@ -14,7 +14,7 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 **Repositorio de código fuente:** [Vanguard — Web Development Course](https://github.com/Vanguard-app-web/webdev-course-vanguard).
 
-> **Estado inicial:** las carpetas y los archivos de las cinco misiones están creados, pero todos los archivos HTML, CSS y guiones se mantienen vacíos, incluidos los de la misión 5. Este README desarrolla únicamente la misión 5; las misiones 1 a 4 conservan los campos que deben completar sus responsables. Los marcadores `[PENDIENTE: ...]` no son enlaces publicados.
+> **Estado inicial:** las carpetas y los archivos de las cinco misiones están creados, pero todos los archivos HTML y CSS se mantienen vacíos, incluidos los de la misión 5. Este README desarrolla únicamente la misión 5; las misiones 1 a 4 conservan los campos que deben completar sus responsables. Los marcadores `[PENDIENTE: ...]` no son enlaces publicados.
 
 ## Secuencia de las Lecciones
 
@@ -115,14 +115,14 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 **Desafío:** inventa un personaje y cambia el saludo, la descripción, los pasatiempos, el enlace y los colores. Conserva la clase de la tarjeta, comprueba cada modificación y revisa que el texto se lea y la imagen quepa tanto en una vista amplia como en una estrecha. Al terminar, explica qué propiedad cambiaste y qué efecto produjo.
 
-**Material reservado en este repositorio:** [archivos iniciales](starter-files/mision-05/), [ejemplo completo](completed-examples/mision-05/) y [guion](scripts/mision-05/guion.md). Estos archivos todavía están vacíos; su contenido se incorporará en una entrega posterior.
+**Material reservado en este repositorio:** [archivos iniciales](starter-files/mision-05/), [ejemplo completo](completed-examples/mision-05/). Estos archivos todavía están vacíos; su contenido se incorporará en una entrega posterior.
 
 ## Recursos Adicionales
 
 - **Código fuente del curso:** [repositorio de GitHub](https://github.com/Vanguard-app-web/webdev-course-vanguard).
 - **Archivos iniciales:** [starter-files](starter-files/).
 - **Ejemplos completos:** [completed-examples](completed-examples/).
-- **Guiones y recursos de apoyo:** [scripts](scripts/).
+- **Utilidades técnicas:** [scripts](scripts/), carpeta reservada para herramientas auxiliares del curso; no contiene guiones de narración.
 - **Editor del curso:** [CodePen](https://codepen.io/pen/). Este enlace abre el editor general; los enlaces de práctica precargados se añadirán por misión.
 
 ### Todas las actividades prácticas
@@ -141,13 +141,13 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 ### Material de cada misión
 
-| Misión | Archivos iniciales | Ejemplo completo | Guion |
-| --- | --- | --- | --- |
-| 1 | [mision-01](starter-files/mision-01/) | [mision-01](completed-examples/mision-01/) | [guion.md](scripts/mision-01/guion.md) |
-| 2 | [mision-02](starter-files/mision-02/) | [mision-02](completed-examples/mision-02/) | [guion.md](scripts/mision-02/guion.md) |
-| 3 | [mision-03](starter-files/mision-03/) | [mision-03](completed-examples/mision-03/) | [guion.md](scripts/mision-03/guion.md) |
-| 4 | [mision-04](starter-files/mision-04/) | [mision-04](completed-examples/mision-04/) | [guion.md](scripts/mision-04/guion.md) |
-| 5 | [mision-05](starter-files/mision-05/) | [mision-05](completed-examples/mision-05/) | [guion.md](scripts/mision-05/guion.md) |
+| Misión | Archivos iniciales | Ejemplo completo |
+| --- | --- | --- |
+| 1 | [mision-01](starter-files/mision-01/) | [mision-01](completed-examples/mision-01/) |
+| 2 | [mision-02](starter-files/mision-02/) | [mision-02](completed-examples/mision-02/) |
+| 3 | [mision-03](starter-files/mision-03/) | [mision-03](completed-examples/mision-03/) |
+| 4 | [mision-04](starter-files/mision-04/) | [mision-04](completed-examples/mision-04/) |
+| 5 | [mision-05](starter-files/mision-05/) | [mision-05](completed-examples/mision-05/) |
 
 **¡Gracias por completar el curso! Guarda tus prácticas, prueba cambios pequeños y sigue aprendiendo.**
 
