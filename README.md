@@ -14,7 +14,7 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 **Repositorio de código fuente:** [Vanguard — Web Development Course](https://github.com/Vanguard-app-web/webdev-course-vanguard).
 
-> **Estado inicial:** las carpetas y los archivos de las cinco misiones están creados, pero todos los archivos HTML y CSS se mantienen vacíos, incluidos los de la misión 5. Este README desarrolla únicamente la misión 5; las misiones 1 a 4 conservan los campos que deben completar sus responsables. Los marcadores `[PENDIENTE: ...]` no son enlaces publicados.
+> **Estado del curso:** la misión 5 cuenta con video, prácticas precargadas y código inicial y completo, con HTML y CSS en archivos separados. Las misiones 1 a 4 conservan sus archivos vacíos y los campos que deben completar sus responsables. Los marcadores `[PENDIENTE: ...]` no son enlaces publicados.
 
 ## Secuencia de las Lecciones
 
@@ -94,11 +94,11 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 **Responsable:** Fabricio Jose Rivera Rupay — [Fabricio1924](https://github.com/Fabricio1924).
 
-**Duración del video preparado:** 13 minutos y 44 segundos.
+**Duración del video:** 13 minutos y 44 segundos.
 
 **Descripción:** reúne lo aprendido para transformar la página de Pixel en una tarjeta de perfil organizada. Aprende a limitar su ancho, centrar el contenido, distinguir el espacio interior del exterior y aplicar fondos, bordes y esquinas redondeadas. Después adapta la imagen, conserva una señal visual en los enlaces y comprueba el diseño en vistas amplias y estrechas. La misión también muestra errores comunes y cómo corregirlos observando el resultado en CodePen.
 
-**Enlace:** [PENDIENTE: añadir el enlace real del video no listado de la misión 5 en YouTube].
+**Enlace:** [Ver la misión 5 en YouTube](https://youtu.be/I9BesDGiYkI).
 
 **Consejos clave:**
 
@@ -111,11 +111,28 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 **Proyecto final:** personalizar la tarjeta de perfil de Pixel manteniendo su estructura y aplicando los estilos aprendidos.
 
-**Práctica en línea:** [PENDIENTE: añadir el enlace real al proyecto precargado en CodePen con el punto de partida de esta misión].
+**Práctica en línea:** [abrir el punto de partida en JSFiddle](https://jsfiddle.net/oym7feLd/).
+
+**Ejemplo completo en línea:** [consultar la tarjeta terminada en JSFiddle](https://jsfiddle.net/0t214mdn/1/).
+
+El video utiliza CodePen. Estas prácticas contienen el mismo HTML y CSS en JSFiddle, otro editor gratuito que funciona en el navegador. No necesitas instalar programas ni iniciar sesión para abrirlas y ejecutarlas.
+
+1. Abre el punto de partida y pulsa **Run / Ejecutar** para ver el resultado.
+2. Conserva el contenido del panel HTML y completa el panel CSS siguiendo el video; el panel JavaScript permanece vacío.
+3. Ajusta el ancho del panel de resultado para comprobar la imagen y la tarjeta. Compara tus cambios con el ejemplo completo cuando termines.
 
 **Desafío:** inventa un personaje y cambia el saludo, la descripción, los pasatiempos, el enlace y los colores. Conserva la clase de la tarjeta, comprueba cada modificación y revisa que el texto se lea y la imagen quepa tanto en una vista amplia como en una estrecha. Al terminar, explica qué propiedad cambiaste y qué efecto produjo.
 
-**Material reservado en este repositorio:** [archivos iniciales](starter-files/mision-05/), [ejemplo completo](completed-examples/mision-05/). Estos archivos todavía están vacíos; su contenido se incorporará en una entrega posterior.
+**Código de esta misión:**
+
+| Versión | HTML | CSS |
+| --- | --- | --- |
+| Punto de partida | [index.html](starter-files/mision-05/index.html) | [style.css](starter-files/mision-05/style.css) |
+| Ejemplo completo | [index.html](completed-examples/mision-05/index.html) | [style.css](completed-examples/mision-05/style.css) |
+
+El punto de partida conserva la página y los estilos básicos de la misión anterior. El ejemplo completo añade el modelo de caja, la tarjeta centrada, la imagen adaptable y el ajuste para pantallas estrechas. Cada `index.html` carga el `style.css` de su propia carpeta. La fotografía del robot se carga desde Unsplash y necesita conexión a Internet.
+
+Para usar estos archivos en CodePen, copia solo el bloque `<main class="tarjeta">...</main>` de `index.html` en el panel HTML y el contenido de `style.css` en el panel CSS. No copies la etiqueta `<link>`: el editor conecta sus paneles automáticamente.
 
 ## Recursos Adicionales
 
@@ -123,7 +140,8 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 - **Archivos iniciales:** [starter-files](starter-files/).
 - **Ejemplos completos:** [completed-examples](completed-examples/).
 - **Utilidades técnicas:** [scripts](scripts/), carpeta reservada para herramientas auxiliares del curso; no contiene guiones de narración.
-- **Editor del curso:** [CodePen](https://codepen.io/pen/). Este enlace abre el editor general; los enlaces de práctica precargados se añadirán por misión.
+- **Editor mostrado en el video de la misión 5:** [CodePen](https://codepen.io/pen/).
+- **Prácticas precargadas de la misión 5:** [punto de partida](https://jsfiddle.net/oym7feLd/) y [ejemplo completo](https://jsfiddle.net/0t214mdn/1/) en JSFiddle.
 
 ### Todas las actividades prácticas
 
@@ -133,7 +151,7 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 | 2 | [PENDIENTE: completar la actividad] | [PENDIENTE: enlace precargado] |
 | 3 | [PENDIENTE: completar la actividad] | [PENDIENTE: enlace precargado] |
 | 4 | [PENDIENTE: completar la actividad] | [PENDIENTE: enlace precargado] |
-| 5 | Personalizar la tarjeta de perfil y comprobar su diseño en distintos anchos | [PENDIENTE: enlace real de CodePen de la misión 5] |
+| 5 | Personalizar la tarjeta de perfil y comprobar su diseño en distintos anchos | [Abrir la práctica en JSFiddle](https://jsfiddle.net/oym7feLd/) |
 
 **Cuestionario:** [PENDIENTE: definir si se incluirá y añadir su enlace real].
 
@@ -184,6 +202,6 @@ La distribución de las misiones conserva el mismo orden utilizado por el equipo
 | 2. Organiza tu contenido | Brayan Benjamin Huerta Cardenas | [PENDIENTE: resumir su elaboración y añadir enlaces] |
 | 3. Conecta tu página | Luisa Nhiriel Casalino Berrocal | [PENDIENTE: resumir su elaboración y añadir enlaces] |
 | 4. Dale estilo con CSS | Giovanni Marcelo Gallegos De La Cruz | [PENDIENTE: resumir su elaboración y añadir enlaces] |
-| 5. El desafío final: tu página web | Fabricio Jose Rivera Rupay | Preparación del guion, narración y video de la misión 5; estructura inicial del repositorio y documentación de su sección en este README. Pendientes los enlaces publicados y el código del repositorio. |
+| 5. El desafío final: tu página web | Fabricio Jose Rivera Rupay | Guion, narración y [video de la misión 5](https://youtu.be/I9BesDGiYkI); [código inicial](starter-files/mision-05/), [ejemplo completo](completed-examples/mision-05/) y [práctica precargada](https://jsfiddle.net/oym7feLd/). Estructura inicial del repositorio y documentación de su sección en este README. |
 
 Cada integrante completará su sección del plan, sus enlaces reales y sus archivos reservados. Los aportes deberán registrarse mediante commits de la cuenta correspondiente. El equipo completará después el resumen conjunto de la elaboración y comprobará la continuidad entre las misiones.
