@@ -14,7 +14,7 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 **Repositorio de código fuente:** [Vanguard — Web Development Course](https://github.com/Vanguard-app-web/webdev-course-vanguard).
 
-> **Estado del curso:** la misión 5 cuenta con video, prácticas precargadas y código inicial y completo, con HTML y CSS en archivos separados. Las misiones 1 a 4 conservan sus archivos vacíos y los campos que deben completar sus responsables. Los marcadores `[PENDIENTE: ...]` no son enlaces publicados.
+> **Estado del curso:** las misiones 3 y 5 cuentan con video, práctica precargada y código inicial y completo, con HTML y CSS en archivos separados. Las misiones 1, 2 y 4 conservan sus archivos vacíos y los campos que deben completar sus responsables. Los marcadores `[PENDIENTE: ...]` no son enlaces publicados.
 
 ## Secuencia de las Lecciones
 
@@ -56,21 +56,33 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 ### Misión 3: Conecta tu página
 
-**Responsable:** Luisa Nhiriel Casalino Berrocal.
+**Responsable:** Luisa Nhiriel Casalino Berrocal — [lulu22nhiri](https://github.com/lulu22nhiri).
 
-**Duración:** [PENDIENTE: indicar la duración real del video].
+**Duración:** 9 minutos.
 
-**Descripción:** [PENDIENTE: completar la descripción de esta misión].
+**Descripción:** añade a la página de Pixel un enlace que salta a sus metas, un enlace externo a una guía de HTML y una imagen con texto alternativo. Agrupa el contenido por temas y prepara la clase de la tarjeta que se usará para aplicar estilos en la siguiente misión.
 
-**Enlace:** [PENDIENTE: añadir el enlace real del video no listado en YouTube].
+**Enlace:** [Ver la misión 3 en YouTube](https://youtu.be/jTsvDy6rGkI).
 
 **Consejos clave:**
 
-- [PENDIENTE: explicar las ideas principales que aprenderá el estudiante].
+- El atributo `href` de un enlace `<a>` indica el destino. Cambiar el texto visible mantiene el mismo destino si conservas el atributo.
+- Para saltar a una parte de la misma página, haz coincidir `href="#metas"` con `id="metas"` en el encabezado de destino.
+- En `<img>`, `src` indica dónde está la imagen y `alt` describe su contenido para quienes no pueden verla.
+- Usa `<main>` para el contenido principal, `<section>` para agruparlo por tema y `<footer>` para el pie. La clase `tarjeta` permite seleccionar ese bloque desde CSS en la misión 4.
 
-**Práctica:** [PENDIENTE: añadir el enlace al ejercicio precargado en un editor gratuito en línea].
+**Práctica:** [Abrir el ejercicio precargado en LiveCodes](https://livecodes.io/?html=%3Ch1%3EHola%2C+soy+Pixel%3C%2Fh1%3E%0A++++%3Cp%3EBienvenido+a+mi+primera+p%C3%A1gina+web.%3C%2Fp%3E%0A%0A++++%3Ch2%3ESobre+m%C3%AD%3C%2Fh2%3E%0A++++%3Cp%3EMe+gustan+los+%3Cstrong%3Erobots%3C%2Fstrong%3E+y+%3Cem%3Eaprender+a+programar%3C%2Fem%3E.%3C%2Fp%3E%0A%0A++++%3Ch2%3EMis+pasatiempos%3C%2Fh2%3E%0A++++%3Cul%3E%0A++++++++%3Cli%3EDibujar+robots%3C%2Fli%3E%0A++++++++%3Cli%3EEscuchar+m%C3%BAsica%3C%2Fli%3E%0A++++++++%3Cli%3EResolver+acertijos%3C%2Fli%3E%0A++++%3C%2Ful%3E%0A%0A++++%3Ch2%3EMis+metas%3C%2Fh2%3E%0A++++%3Col%3E%0A++++++++%3Cli%3EAprender+HTML%3C%2Fli%3E%0A++++++++%3Cli%3EPracticar+CSS%3C%2Fli%3E%0A++++++++%3Cli%3ECrear+una+p%C3%A1gina+completa%3C%2Fli%3E%0A++++%3C%2Fol%3E&css=%2F*+En+esta+misi%C3%B3n+trabajamos+con+HTML.+Los+estilos+se+a%C3%B1aden+en+la+misi%C3%B3n+4.+*%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n+3+%C2%B7+Conecta+tu+p%C3%A1gina).
 
-**Desafío:** [PENDIENTE: describir la actividad y cómo comprobar su resultado].
+1. Abre la práctica y añade un enlace interno a «Mis metas» y otro a la guía de HTML. Cambia temporalmente el texto del enlace externo y comprueba que sigue abriendo la misma guía.
+2. Inserta una imagen debajo de «Sobre mí» y escribe su texto alternativo. Agrupa el perfil con `<main class="tarjeta">`, secciones y un pie.
+3. Revisa la vista previa y compara tu HTML con el ejemplo completo.
+
+**Desafío:** crea un enlace a un recurso de aprendizaje que te interese y escribe un `alt` que describa la imagen que elijas. Comprueba en la vista previa que la imagen carga y que el enlace lleva al sitio que escogiste.
+
+| Versión | HTML | CSS |
+| --- | --- | --- |
+| Punto de partida | [index.html](starter-files/mision-03/index.html) | [style.css](starter-files/mision-03/style.css) |
+| Ejemplo completo | [index.html](completed-examples/mision-03/index.html) | [style.css](completed-examples/mision-03/style.css) |
 
 ### Misión 4: Dale estilo con CSS
 
@@ -149,7 +161,7 @@ Para usar estos archivos en CodePen, copia solo el bloque `<main class="tarjeta"
 | --- | --- | --- |
 | 1 | [PENDIENTE: completar la actividad] | [PENDIENTE: enlace precargado] |
 | 2 | [PENDIENTE: completar la actividad] | [PENDIENTE: enlace precargado] |
-| 3 | [PENDIENTE: completar la actividad] | [PENDIENTE: enlace precargado] |
+| 3 | Añadir y probar enlaces internos y externos, insertar una imagen con texto alternativo y organizar la página de Pixel | [Abrir el ejercicio precargado en LiveCodes](https://livecodes.io/?html=%3Ch1%3EHola%2C+soy+Pixel%3C%2Fh1%3E%0A++++%3Cp%3EBienvenido+a+mi+primera+p%C3%A1gina+web.%3C%2Fp%3E%0A%0A++++%3Ch2%3ESobre+m%C3%AD%3C%2Fh2%3E%0A++++%3Cp%3EMe+gustan+los+%3Cstrong%3Erobots%3C%2Fstrong%3E+y+%3Cem%3Eaprender+a+programar%3C%2Fem%3E.%3C%2Fp%3E%0A%0A++++%3Ch2%3EMis+pasatiempos%3C%2Fh2%3E%0A++++%3Cul%3E%0A++++++++%3Cli%3EDibujar+robots%3C%2Fli%3E%0A++++++++%3Cli%3EEscuchar+m%C3%BAsica%3C%2Fli%3E%0A++++++++%3Cli%3EResolver+acertijos%3C%2Fli%3E%0A++++%3C%2Ful%3E%0A%0A++++%3Ch2%3EMis+metas%3C%2Fh2%3E%0A++++%3Col%3E%0A++++++++%3Cli%3EAprender+HTML%3C%2Fli%3E%0A++++++++%3Cli%3EPracticar+CSS%3C%2Fli%3E%0A++++++++%3Cli%3ECrear+una+p%C3%A1gina+completa%3C%2Fli%3E%0A++++%3C%2Fol%3E&css=%2F*+En+esta+misi%C3%B3n+trabajamos+con+HTML.+Los+estilos+se+a%C3%B1aden+en+la+misi%C3%B3n+4.+*%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n+3+%C2%B7+Conecta+tu+p%C3%A1gina) |
 | 4 | [PENDIENTE: completar la actividad] | [PENDIENTE: enlace precargado] |
 | 5 | Personalizar la tarjeta de perfil y comprobar su diseño en distintos anchos | [Abrir la práctica en JSFiddle](https://jsfiddle.net/oym7feLd/) |
 
@@ -200,7 +212,7 @@ La distribución de las misiones conserva el mismo orden utilizado por el equipo
 | --- | --- | --- |
 | 1. Descubre la web | Antony Alexander Jimenez Saavedra | [PENDIENTE: resumir su elaboración y añadir enlaces] |
 | 2. Organiza tu contenido | Brayan Benjamin Huerta Cardenas | [PENDIENTE: resumir su elaboración y añadir enlaces] |
-| 3. Conecta tu página | Luisa Nhiriel Casalino Berrocal | [PENDIENTE: resumir su elaboración y añadir enlaces] |
+| 3. Conecta tu página | Luisa Nhiriel Casalino Berrocal | [Video de la misión 3](https://youtu.be/jTsvDy6rGkI), [código inicial](starter-files/mision-03/), [ejemplo completo](completed-examples/mision-03/) y [Abrir el ejercicio precargado en LiveCodes](https://livecodes.io/?html=%3Ch1%3EHola%2C+soy+Pixel%3C%2Fh1%3E%0A++++%3Cp%3EBienvenido+a+mi+primera+p%C3%A1gina+web.%3C%2Fp%3E%0A%0A++++%3Ch2%3ESobre+m%C3%AD%3C%2Fh2%3E%0A++++%3Cp%3EMe+gustan+los+%3Cstrong%3Erobots%3C%2Fstrong%3E+y+%3Cem%3Eaprender+a+programar%3C%2Fem%3E.%3C%2Fp%3E%0A%0A++++%3Ch2%3EMis+pasatiempos%3C%2Fh2%3E%0A++++%3Cul%3E%0A++++++++%3Cli%3EDibujar+robots%3C%2Fli%3E%0A++++++++%3Cli%3EEscuchar+m%C3%BAsica%3C%2Fli%3E%0A++++++++%3Cli%3EResolver+acertijos%3C%2Fli%3E%0A++++%3C%2Ful%3E%0A%0A++++%3Ch2%3EMis+metas%3C%2Fh2%3E%0A++++%3Col%3E%0A++++++++%3Cli%3EAprender+HTML%3C%2Fli%3E%0A++++++++%3Cli%3EPracticar+CSS%3C%2Fli%3E%0A++++++++%3Cli%3ECrear+una+p%C3%A1gina+completa%3C%2Fli%3E%0A++++%3C%2Fol%3E&css=%2F*+En+esta+misi%C3%B3n+trabajamos+con+HTML.+Los+estilos+se+a%C3%B1aden+en+la+misi%C3%B3n+4.+*%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n+3+%C2%B7+Conecta+tu+p%C3%A1gina). Documentación de la lección, la práctica y el desafío. |
 | 4. Dale estilo con CSS | Giovanni Marcelo Gallegos De La Cruz | [PENDIENTE: resumir su elaboración y añadir enlaces] |
 | 5. El desafío final: tu página web | Fabricio Jose Rivera Rupay | Guion, narración y [video de la misión 5](https://youtu.be/I9BesDGiYkI); [código inicial](starter-files/mision-05/), [ejemplo completo](completed-examples/mision-05/) y [práctica precargada](https://jsfiddle.net/oym7feLd/). Estructura inicial del repositorio y documentación de su sección en este README. |
 
