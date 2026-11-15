@@ -6,11 +6,11 @@ Curso introductorio para estudiantes de secundaria que quieren crear su primera 
 
 Las lecciones combinan explicaciones visuales, demostraciones en un editor en línea y pausas para practicar. **No necesitas instalar programas: solo abre tu navegador web.**
 
-- **Duración total prevista:** aproximadamente 60 minutos; pendiente de confirmar con las duraciones finales de las cinco misiones.
+- **Duración de las cinco misiones:** aproximadamente 54 minutos.
 - **Público objetivo:** estudiantes de 12 a 17 años sin experiencia en programación.
 - **Prerrequisitos:** ninguno.
-- **Herramientas necesarias:** navegador web y conexión a Internet. Las prácticas utilizarán herramientas gratuitas y en línea.
-- **Formato previsto:** cinco videos de 5 a 15 minutos, publicados como no listados en YouTube.
+- **Herramientas necesarias:** navegador web y conexión a Internet. Las prácticas se realizan en editores gratuitos en línea.
+- **Formato:** cinco videolecciones en YouTube con ejercicios en línea y un video que reúne el curso completo.
 
 **Repositorio de código fuente:** [Vanguard — Web Development Course](https://github.com/Vanguard-app-web/webdev-course-vanguard).
 
@@ -136,7 +136,7 @@ Cada `index.html` carga el `style.css` de su carpeta. Para usar el ejercicio en 
 
 **Responsable:** Giovanni Marcelo Gallegos De La Cruz.
 
-**Duración:** 11 minutos y 17 segundos en la versión corregida.
+**Duración:** 11 minutos y 17 segundos.
 
 **Descripción:** aplica CSS a la página de Pixel. Usa selectores para dar estilo al título, los subtítulos y los enlaces, y ajusta el fondo, la tipografía y el espaciado.
 
@@ -206,7 +206,7 @@ Para usar estos archivos en CodePen, copia solo el bloque `<main class="tarjeta"
 - **Código fuente del curso:** [repositorio de GitHub](https://github.com/Vanguard-app-web/webdev-course-vanguard).
 - **Archivos iniciales:** [starter-files](starter-files/).
 - **Ejemplos completos:** [completed-examples](completed-examples/).
-- **Utilidades técnicas:** [scripts](scripts/), carpeta reservada para herramientas auxiliares del curso; no contiene guiones de narración.
+- **Utilidades técnicas:** [scripts](scripts/).
 - **Editor mostrado en el video de la misión 5:** [CodePen](https://codepen.io/pen/).
 - **Prácticas precargadas de la misión 5:** [punto de partida](https://jsfiddle.net/oym7feLd/) y [ejemplo completo](https://jsfiddle.net/0t214mdn/1/) en JSFiddle.
 
@@ -257,7 +257,7 @@ Para usar estos archivos en CodePen, copia solo el bloque `<main class="tarjeta"
 
 ### Organización del trabajo
 
-La distribución de las misiones conserva el mismo orden utilizado por el equipo en el curso anterior.
+Cada integrante estuvo a cargo de una misión, con su video, práctica y ejemplo completo.
 
 | Misión | Responsable | Aporte documentado |
 | --- | --- | --- |
@@ -266,5 +266,3 @@ La distribución de las misiones conserva el mismo orden utilizado por el equipo
 | 3. Conecta tu página | Luisa Nhiriel Casalino Berrocal | [Video de la misión 3](https://youtu.be/jTsvDy6rGkI), [código inicial](starter-files/mision-03/), [ejemplo completo](completed-examples/mision-03/) y [Abrir el ejercicio precargado en LiveCodes](https://livecodes.io/?html=%3Ch1%3EHola%2C+soy+Pixel%3C%2Fh1%3E%0A++++%3Cp%3EBienvenido+a+mi+primera+p%C3%A1gina+web.%3C%2Fp%3E%0A%0A++++%3Ch2%3ESobre+m%C3%AD%3C%2Fh2%3E%0A++++%3Cp%3EMe+gustan+los+%3Cstrong%3Erobots%3C%2Fstrong%3E+y+%3Cem%3Eaprender+a+programar%3C%2Fem%3E.%3C%2Fp%3E%0A%0A++++%3Ch2%3EMis+pasatiempos%3C%2Fh2%3E%0A++++%3Cul%3E%0A++++++++%3Cli%3EDibujar+robots%3C%2Fli%3E%0A++++++++%3Cli%3EEscuchar+m%C3%BAsica%3C%2Fli%3E%0A++++++++%3Cli%3EResolver+acertijos%3C%2Fli%3E%0A++++%3C%2Ful%3E%0A%0A++++%3Ch2%3EMis+metas%3C%2Fh2%3E%0A++++%3Col%3E%0A++++++++%3Cli%3EAprender+HTML%3C%2Fli%3E%0A++++++++%3Cli%3EPracticar+CSS%3C%2Fli%3E%0A++++++++%3Cli%3ECrear+una+p%C3%A1gina+completa%3C%2Fli%3E%0A++++%3C%2Fol%3E&css=%2F*+En+esta+misi%C3%B3n+trabajamos+con+HTML.+Los+estilos+se+a%C3%B1aden+en+la+misi%C3%B3n+4.+*%2F&editor=codemirror&activeEditor=markup&languages=html%2Ccss&title=Misi%C3%B3n+3+%C2%B7+Conecta+tu+p%C3%A1gina). Documentación de la lección, la práctica y el desafío. |
 | 4. Dale estilo con CSS | Giovanni Marcelo Gallegos De La Cruz | Demostración de selectores, colores, tipografía y espaciado. Incluye el [ejercicio inicial](starter-files/mision-04/) y el [ejemplo completo](completed-examples/mision-04/). |
 | 5. El desafío final: tu página web | Fabricio Jose Rivera Rupay | Guion, narración y [video de la misión 5](https://youtu.be/I9BesDGiYkI); [código inicial](starter-files/mision-05/), [ejemplo completo](completed-examples/mision-05/) y [práctica precargada](https://jsfiddle.net/oym7feLd/). Estructura inicial del repositorio y documentación de su sección en este README. |
-
-Cada integrante completará su sección del plan, sus enlaces reales y sus archivos reservados. Los aportes deberán registrarse mediante commits de la cuenta correspondiente. El equipo completará después el resumen conjunto de la elaboración y comprobará la continuidad entre las misiones.
