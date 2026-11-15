@@ -14,8 +14,6 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 **Repositorio de código fuente:** [Vanguard — Web Development Course](https://github.com/Vanguard-app-web/webdev-course-vanguard).
 
-> **Estado del curso:** las cinco misiones cuentan con video, práctica precargada y código inicial y completo, con HTML y CSS en archivos separados.
-
 ## Curso completo en video
 
 En este video se reúnen las **cinco misiones del curso**, desde los primeros elementos de HTML hasta el diseño y la personalización de la página de Pixel.
@@ -242,10 +240,10 @@ Para usar estos archivos en CodePen, copia solo el bloque `<main class="tarjeta"
 - **Carrera:** Ingeniería de Software.
 - **Período académico:** 202620.
 - **Curso:** 1ASI0730 — Aplicaciones Web.
-- **NRC:** [PENDIENTE: indicar el NRC de Aplicaciones Web].
+- **NRC:** 8088.
 - **Nombre del equipo:** Vanguard.
-- **Líder del equipo:** [PENDIENTE: indicar nombres y apellidos].
-- **Fecha de entrega:** [PENDIENTE: indicar la fecha correspondiente].
+- **Líder del equipo:** Giovanni Marcelo Gallegos De La Cruz.
+- **Fecha de entrega:** 15/11/2026.
 
 ### Integrantes del equipo
 
