@@ -16,6 +16,14 @@ Las lecciones combinan explicaciones visuales, demostraciones en un editor en l�
 
 > **Estado del curso:** las cinco misiones cuentan con video, práctica precargada y código inicial y completo, con HTML y CSS en archivos separados.
 
+## Curso completo en video
+
+En este video se reúnen las **cinco misiones del curso**, desde los primeros elementos de HTML hasta el diseño y la personalización de la página de Pixel.
+
+**[Ver el video completo del curso en YouTube](https://youtu.be/viK_OOmf2ao)**
+
+Para practicar mientras lo ves, utiliza los enlaces a los ejercicios precargados, los archivos iniciales y los ejemplos completos incluidos en cada misión.
+
 ## Secuencia de las Lecciones
 
 ### Misión 1: Descubre la web
